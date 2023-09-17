@@ -76,9 +76,7 @@ const Home = ({ product, setProduct, detail, view, close, setClose, addtocart })
                 Game‑changing chip. </h4>
               <h4>
                 Groundbreaking performance.</h4>
-              <a href="/product" class="link">
-                Shop Now <span>&rarr;</span>
-              </a>
+                <button onClick={AllProducts} class="link"> Shop Now</button>
             </div>
             <div class="img_box">
               <img src="img/Apple-iPhone-15.png" alt="sliderimg" />
@@ -89,9 +87,7 @@ const Home = ({ product, setProduct, detail, view, close, setClose, addtocart })
           <div class="container">
             <div class="detail">
               <h3>The Best Note Book Collection 2023</h3>
-              <a href="/product" class="link">
-                Shop Now <span>&rarr;</span>
-              </a>
+              <button onClick={AllProducts} class="link"> Shop Now</button>
             </div>
             <div class="img_box">
               <img src="img/slider-img.png" alt="sliderimg" />
@@ -104,9 +100,7 @@ const Home = ({ product, setProduct, detail, view, close, setClose, addtocart })
               <h3>Apple iPad Pro M2 chip.</h3>
               <h4>Next-generation performance.</h4>
               <h4>Next‑generation capabilities.</h4>
-              <a href="/product" class="link">
-                Shop Now <span>&rarr;</span>
-              </a>
+              <button onClick={AllProducts} class="link"> Shop Now</button>
             </div>
             <div class="img_box">
               <img src="img/I-pad.png" alt="sliderimg" />
@@ -118,9 +112,7 @@ const Home = ({ product, setProduct, detail, view, close, setClose, addtocart })
             <div class="detail">
               <h3>Beats Studio Buds +</h3>
               <h4>True Wireless Noise Cancelling Earbuds</h4>
-              <a href="/product" class="link">
-                Shop Now <span>&rarr;</span>
-              </a>
+              <button onClick={AllProducts} class="link"> Shop Now</button>
             </div>
             <div class="img_box">
               <img src="img/beats.png" alt="sliderimg" />

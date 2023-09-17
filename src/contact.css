@@ -70,8 +70,9 @@
 }
 .contact_container .contant .form form button
 {
-    padding: 0.625rem 2rem;
-    background: #010f1c;
+    padding: 0.625rem 1.75rem;
+    border: none;
+    background: #147861;
     color: #fff;
     cursor: pointer;
 }

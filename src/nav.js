@@ -46,13 +46,17 @@ const Nav = ({ searchbtn }) => {
     document.querySelector('.nav').classList.remove('active');
   };
 
+  const handleHomePage=()=>{
+    navigateTo("./");
+  }
+
   return (
     <div className='main_header'>
       <div className='nav-icon' onClick={() => document.querySelector('.nav').classList.toggle('active')}>
         &#9776;
       </div>
       <div className='left-icons'>
-        <div className='logo'>
+        <div onClick={handleHomePage}className='logo'>
           <img src='./img/logo.png' alt='logo'></img>
           <div className='logo-text'>shop<span>me</span></div>
         </div>

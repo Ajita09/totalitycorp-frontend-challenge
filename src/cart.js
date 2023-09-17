@@ -92,11 +92,11 @@ const Cart = ({cart, setCart}) => {
         </div>
         {
             cart.length > 0 &&
-            <>
+            <div className='cart-summary'>
             <h2 className='totalprice'>total: $ {Totalprice}</h2>
             <button className='checkout' onClick={handleCheckout}>Checkout</button>
          
-            </>
+            </div>
         }
     </div>
     </>
